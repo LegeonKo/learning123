@@ -1,0 +1,44 @@
+body
+  margin 0
+
+  *
+    box-sizing border-box
+
+  .timer
+    display flex
+    width 300px;
+    border 1px solid;
+    margin 200px auto 0;
+    align-items center
+    justify-content center;
+    flex-direction column
+    gap 15px;
+    border-radius 5px;
+    background linear-gradient(#e66465, #18cfef);
+
+    &_count
+      width 280px;
+      height 50px;
+      border 1px solid;
+      margin-top 10px;
+      border-radius 5px;
+      background white;
+      display flex;
+      align-items center;
+      justify-content center;
+      
+    &_records
+      display: flex;
+      flex-direction column
+      align-items center
+      margin-bottom 15px;
+      gap 10px;
+
+      &__text
+        width 280px;
+        height 200px;
+        border 1px solid;
+        border-radius 5px;
+        background white;
+        padding 5px;
+        overflow-y scroll;
